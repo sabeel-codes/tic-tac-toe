@@ -1,4 +1,5 @@
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -10,7 +11,7 @@ body {
     font-size: 2rem;
 }
 
-.container{
+.container {
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -24,9 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap:1.5vmin;
-
-
+    gap: 1.5vmin;
 }
 
 .box {
@@ -34,10 +33,10 @@ body {
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem (0, 0 , 0, 0.3);
-    font-size:8vmin;
-    color:rgb(202, 85, 85);
-    background-color:#ffffc7; 
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: rgb(202, 85, 85);
+    background-color: #ffffc7;
 }
 
 #reset-btn {
@@ -59,17 +58,16 @@ body {
     border: none;
 }
 
-.msg-container{
+.msg-container {
     height: 100vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 4rem;
-    
 }
 
-#msg{
+#msg {
     color: #ffffc7;
     font-size: 5vmin;
 }
